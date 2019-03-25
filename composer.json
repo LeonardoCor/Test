@@ -1,0 +1,21 @@
+{
+    "name":         "leonardocor/test",
+    "description":  "Test Project",
+    "authors":      [
+        {
+            "name":     "Leonardo Corazzi",
+            "email":    "leonardo.corazzi@outlook.it"
+        }
+    ],
+    "require":      {
+        "leonardocor/fake": "1.*"
+    },
+    "require-dev":  {
+        "phpunit/phpunit-skeleton-generator": "2.0.1"
+    },
+    "autoload":     {
+        "psr-4":    {
+            "LCTest\\":   "src"
+        }
+    }
+}
